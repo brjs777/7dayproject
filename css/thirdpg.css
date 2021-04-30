@@ -1,0 +1,70 @@
+#thirdpg{
+    margin-top: 50px;
+    height: 700px;
+    background-image: url(pix/forest.jpg);/*why is background=image not working*/
+    background-color: black;
+}
+
+.thirdfirst{
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tfone{
+    height: 100%;
+    width: 50%;
+}
+.tfone>p{
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 50px;
+    color: whitesmoke;
+}
+.tftwo{
+    height: 100%;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.tftwo>h3{
+    text-transform: capitalize;
+    color: rgb(0, 153, 115);
+}
+.tftwo>h2{
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.thirdsecond{
+    margin-top: 10px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.thirdsecond>div{
+    height: 220px;
+    width: 320px;
+    background-color: whitesmoke;
+    margin:25px 57px; 
+}
+.thirdsecond .same{
+    padding: 0px 30px;
+    padding-top: 45px;
+}
+.ts{
+    text-align: center;  
+}
+.ts i{
+    font-size: 37px;
+    color:rgb(68, 68, 68);
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+.thirdsecond h3{
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    color: rgb(0, 153, 115);
+    padding-bottom: 20px;
+}
+

@@ -1,0 +1,140 @@
+#tenpg{
+    height: 640px;
+}
+
+.ten2main{
+    margin-top: 30px;
+    margin-left: 7%;
+    width: 85%;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tenformbox{
+    width: 48%;
+    height: 100%;
+}
+
+
+.tenformbox input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid black;
+    transition: all .3s;
+    background-color: rgb(218, 218, 218);
+}
+.tenformbox textarea{
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid black;
+    transition: all .3s;
+    background-color: rgb(218, 218, 218);
+}
+textarea:focus{
+    border: 4px ridge rgb(0, 235, 176);
+}
+input:focus {
+    border: 4px ridge rgb(0, 235, 176);
+}
+.tenformbox button{
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color:rgb(0, 133, 99) ;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    transition: all .3s;
+}
+.tenformbox button:hover{
+    background-color: black;
+    
+}
+
+.tensubright{
+    width: 48%;
+    height: 100%;
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.tensubright>div{
+    width: 100%;
+    height: 27%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tensubright .tenlogo{
+    width: 30%;
+    height: 95%;
+    text-align: center;
+    padding-top: 40px;
+}
+.tenlogo>i{
+    font-size: 35px;
+    color:rgb(51, 51, 51);
+}
+
+.tensubright .tentext{
+    width: 65%;
+    height: 95%;
+}
+
+.tentext>h2{
+    font-size:22px;
+    color: rgb(0, 148, 111);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.eleven1pg{
+    width: 100%;
+    height: 340px;
+    background-color: rgb(48, 48, 202);
+    margin-top: 40px;
+}
+
+.eleven2pg{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(4, 155, 97);
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+.eleven2pg>p{
+    text-align: center;
+}
+
+
+.elelogo{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.lastlogo{
+    text-align: center;
+}
+.elelogo>i:hover{
+    color: white;
+}
+.lastlogo>i{
+    font-size: 40px;
+    color: black;
+}

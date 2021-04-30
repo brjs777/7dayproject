@@ -1,0 +1,60 @@
+#sixthpg{
+    margin-top: 10px;
+    height: 630px;
+    width: 100%;
+    background-color:black;
+}
+
+#sixthpg .sixtop{
+    padding-top: 60px;
+    color: whitesmoke;
+}
+
+#sixthpg>.sp2{
+    width: 80%;
+    height: 350px;
+    margin-top:50px;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sixthpg>.sp2>div{
+    height: 100%;
+    width: 23%;
+    padding: 20px;
+    text-align:center;
+    background-color: whitesmoke;
+}
+#sixthpg>.sp2 h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    color:rgb(0, 155, 116);
+    margin-bottom: 10px;
+}
+#sixthpg>.sp2 h5{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+ #sixthpg>.sp2 .largeno{
+    font-size: 33px;
+    color:rgb(0, 155, 116);
+}
+.sp2 ul{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+#sixthpg a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 155, 116);
+    padding: 7px 19px;
+    border-radius: 30px;
+}
+
+#sixthpg a:hover{
+    color:rgb(0, 117, 88);
+    background-color: black;
+}

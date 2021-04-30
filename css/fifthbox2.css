@@ -1,0 +1,94 @@
+#fifthbox2{
+    height: 790px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top:80px;
+}
+
+#fifthbox2 >.fb2one{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.fb2one>p{
+    width: 49%;
+    text-align: right;
+    padding-top: 20px;
+}
+.fb2text{
+    width: 49%;
+}
+.fb2text h6{
+    font-size: 20px;
+    color: rgb(0, 153, 115);
+}
+.fb2text h3{
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.fb2two{
+    margin-top: 70px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb2img{
+    height: 497px;
+    width: 34%;
+}
+.fb2img>img{
+    height: 100%;
+    width: 100%;
+}
+.fb2boxes{
+    height: 497px;
+    width:58% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.fb2boxes> .box{
+    width: 100%;
+    height: 140px;
+    background-color: whitesmoke;
+    margin-bottom: 38px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0px 5px 80px rgb(0, 0, 0);  
+}
+
+.fb2boxes>.fb2b2{
+    width: 90%;
+}
+
+.fb2boxes .logo{
+    height: 96%;
+    width: 30%;
+    text-align:center;
+    padding-top: 40px;
+}
+.fb2boxes .logos{
+    font-size: 38px;
+    color: rgb(37, 37, 37);
+}
+
+.fb2boxes .text{
+    height: 96%;
+    width: 65%;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: left;
+}
+.fb2boxes .text h3{
+    color: rgb(0, 153, 115);
+    margin-bottom: 10px;
+}
+

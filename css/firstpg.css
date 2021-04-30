@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#firstpg{
+    height: 625px;
+    padding-top: 20px;
+    background-image: url(pix/forest.jpg); /*img not showing*/
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+
+.nav-bar ul{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.logo h1{
+    position: absolute;
+    top: 13px;
+    left: 40px;
+}
+
+.logo h1 a{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 155, 116);
+    font-size: 24px;
+}
+
+.nav-bar li{
+    list-style: none;
+    padding: 5px;
+    border-left: 1.5px inset whitesmoke;
+}
+
+.nav-bar ul a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-size:17px;
+    padding: 4px 14px;
+}
+
+.list-box a{
+    transition: color .6s;
+}
+.list-box a.listone{
+    color: rgb(0, 204, 153);
+}
+
+.list-box a:hover{
+    color: rgb(0, 204, 153) ;
+}
+
+.middletexts{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.midone{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.midtwo{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.midone , .midtwo,.midthree {
+    text-transform: capitalize;
+    margin: 10px;
+    color: whitesmoke;
+
+}
+
+.midfour{
+    margin-top:40px;
+    display: flex;
+    padding:0px 180px;
+    
+}
+
+ .aboutusbtn ,.joinusbtn{
+     margin:0px 20px;
+    background-color: rgb(2, 139, 105);
+    text-decoration: none;
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 7px 22px;
+    border: 2px inset white;
+    border-radius: 100px;
+    transition: all .4s;
+    
+}
+
+.aboutusbtn:hover ,.joinusbtn:hover{
+    color:rgb(0, 204, 153);
+    background-color: black;
+}
+
+

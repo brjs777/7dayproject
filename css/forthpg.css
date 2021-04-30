@@ -1,0 +1,125 @@
+#fourthpg{
+    margin-top: 30px;
+    height: 1180px;
+    background-image: url('pix/forest.jpg');
+}
+
+.fourtop{
+    padding: 10px;
+    display: flex;
+    
+}
+.fourone{
+    margin-left: 130px;
+    width: 40%;
+    text-align: right;
+}
+.fourone>h3{
+    padding-top: 10px;
+    color: rgb(0, 153, 115);  
+}
+.fourone>h2{
+    text-transform: capitalize;
+    font-size: 34px;
+    font-weight: 200;
+    letter-spacing: 1.3px;
+}
+
+.fourone2{
+    margin-left: 18px;
+    width: 40%;
+    text-align: left;
+}
+
+.fourone2 p{
+    padding-top: 22px;
+}
+
+.fourpicbox{
+    height: 1045px;
+    width: 1100px;
+    margin-top: 20px;
+    margin-left:135px;
+    display: flex;
+}
+.fpicbox1{
+    height: 100%;
+    width: 49%;
+    margin-right: 16px;
+
+}
+.fpicbox2{
+    height: 100%;
+    width: 49%;   
+}
+
+.fpicbox1 .madara1{
+    height: 350px;
+    width: 537px;
+}
+.madara1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.madara2{
+    height: 340px;
+    width:537px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.madara2 .m21 , .madara2 .m22{
+    height: 300px;
+    width: 258px;
+}
+.m22{
+    margin-left: 20px;
+}
+.madara2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.mad1{
+    height: 330px;
+    width: 537;
+    margin-bottom: 20px;
+}
+.mad1>img{
+    height: 100%;
+    width: 100%;
+}
+
+.fifthbox{
+    margin-top: 70px;
+    height:200px;
+    background-color: rgb(2, 160, 120) ;
+    padding-top: 35px;
+}
+
+.fmainbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.fmbox1{
+    width: 240px;
+    height: 140px;
+  padding: 30px;
+}
+
+.fmbox1 i{
+    font-size: 26px;
+    color: whitesmoke;
+    margin-bottom: 9px;
+}
+.fmbox1 .fmboxd{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.fmbox1 h3{
+    color: whitesmoke;
+}

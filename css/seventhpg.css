@@ -1,0 +1,101 @@
+#seventhpg{
+    margin-top: 10px;
+    height: 630px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+
+#seventhpg>.sevdsec{
+    margin-top: 40px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sevdsec>div{
+    height: 100%;
+    width: 30%;
+    text-align: left;
+    padding: 10px;
+}
+
+.sevdsec .profilepicseven{
+    width: 150px;
+    height: 150px; 
+    margin-bottom: 20px;   
+    border: 4px groove rgb(187, 187, 187);
+    border-radius: 10px;
+
+}
+.profilepicseven>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sevdsec h4{
+    text-transform: capitalize;
+    font-size: 23px;
+    color:  rgb(2, 124, 94);
+
+}
+.sevdsec h6{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sevdsec p{
+    font-weight: 300;
+    
+}
+
+
+
+
+.seven2pgbox{
+    margin-top: 30px;
+    height: 320px;
+    background-color: rgb(2, 160, 120);
+    padding-left: 12%;
+    padding-top: 75px;
+    text-align: center;
+}
+.sev2pgmain{
+    height: 90%;
+    width: 85%;
+}
+
+.sev2pgmain>div{
+    width: 100%;
+    height: 60px;
+}
+.sev2pgmain>div>a>i:hover{
+    color: black;
+
+}
+.sev2pgmain>div>a>i{
+    font-size: 40px;
+    padding: 10px;
+    color:  rgb(2, 105, 80);
+    background-color: white;
+    border-radius: 100px;
+    transition: all .3s;
+
+}
+.sev2pgmain>h4{
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: whitesmoke;
+    
+}
+
+.sev2pgmain>p{
+    margin-top: 20px;
+}
